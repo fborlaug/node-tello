@@ -1,8 +1,5 @@
 const dgram = require('dgram');
 
-const say = require('say');
-
-say.speak('I am sorry Dave. I am afraid I can’t do that');
 
 const DRONE_PORT = 8889;
 const DRONE_HOST = '192.168.10.1';
